@@ -12,7 +12,7 @@ do
     local _PG  = _PL:WaitForChild("PlayerGui")
 
     local screenGui = Instance.new("ScreenGui")
-    screenGui.Name = "SourceHubIntro"
+    screenGui.Name = "Axiomhub"
     screenGui.ResetOnSpawn = false
     screenGui.IgnoreGuiInset = true
     screenGui.DisplayOrder = 999
@@ -35,12 +35,12 @@ do
     image.ImageTransparency = 1
     image.Parent = bg
 
-    -- Title - SOURCE HUB, smaller fixed size (not TextScaled)
+    -- Title - Axiomhub, smaller fixed size (not TextScaled)
     local title = Instance.new("TextLabel")
     title.Size = UDim2.new(0.7, 0, 0, 52)
     title.Position = UDim2.new(0.15, 0, 0.42, 0)
     title.BackgroundTransparency = 1
-    title.Text = "SOURCE HUB"
+    title.Text = "Axiom hub"
     title.TextColor3 = Color3.fromRGB(255,255,255)
     title.TextTransparency = 1
     title.TextScaled = false
